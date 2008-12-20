@@ -1,0 +1,1 @@
+The function last :: [a] -> a could return any element of the list.  The function could not return more than one element of the list or a new list containing a subset of the list.

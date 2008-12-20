@@ -1,0 +1,15 @@
+When there aren't enough elements, it raises an Exception, which seems to be idiomatic, because that's what calling head on a empty list does:
+
+Prelude> :load "ex02.hs"
+[1 of 1] Compiling Main             ( ex02.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> lastButOne [1, 2, 3, 4]
+3
+*Main> lastButOne [1, 2, 3]
+2
+*Main> lastButOne [1, 2]
+1
+*Main> lastButOne [1]
+*** Exception: Prelude.last: empty list
+*Main> lastButOne []
+*** Exception: Prelude.last: empty list

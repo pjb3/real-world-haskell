@@ -1,0 +1,11 @@
+$ ghci
+GHCi, version 6.10.1: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :type False
+False :: Bool
+Prelude> :type (["foo", "bar"], 'a')
+(["foo", "bar"], 'a') :: ([[Char]], Char)
+Prelude> :type [(True, []), (False, [['a']])]
+[(True, []), (False, [['a']])] :: [(Bool, [[Char]])]
