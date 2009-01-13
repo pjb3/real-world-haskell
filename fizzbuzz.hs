@@ -1,0 +1,1 @@
+fizzbuzz n l = show n : []
