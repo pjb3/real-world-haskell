@@ -1,0 +1,3 @@
+*Main> :type myLength
+:type myLength
+myLength :: [a] -> Int
